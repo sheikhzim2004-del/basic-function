@@ -34,3 +34,21 @@ function doubleOrTriple (number, doDouble){
 // akhane log kora function variable er arguments er shorto mile gele sheta she onujayi return value pabe.
 console.log(doubleOrTriple(5, true));
 console.log(doubleOrTriple(5, false));
+console.log('===============================================');
+
+
+
+//ai jayga ta bujh nai bujhay nite hobe (module 17 er 7 no vidio er last)
+function numberOfEliments (numbers){
+    const len = numbers.length;
+    return len;
+}
+
+numberOfEliments([54,61,52,66,75,23]);
+
+function getAge (person){
+    const age = person.age;
+    return age;
+}
+
+
